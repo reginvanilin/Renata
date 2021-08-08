@@ -1,0 +1,45 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(../font/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: gilroy-medium;
+    src: url(../font/gilroy-medium.ttf);
+}
+.header{
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-links{
+    width: 940px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links-link{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    color: #828282;
+    cursor: pointer;
+}
+.header-links-link:hover{
+    color: black;
+}
+.header-divider{
+    width: 940px;
+    border-bottom: 1px solid #828282;
+    margin-top: 31px;
+}
+@media screen and (max-width: 1070px){
+    .header-links{
+        width: 800px;
+    }
+    .header-divider{
+        width: 800px;
+    }
+}
+.
