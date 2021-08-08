@@ -42,4 +42,135 @@
         width: 800px;
     }
 }
-.
+@media screen and (max-width: 900px){
+    .header{
+        display: none;
+    }
+}
+.hero{
+    height: 679px;
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 39px;
+    
+}
+.hero-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hero-text-title{
+    width: 123px;
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    color: #070707;
+    line-height: 47px;
+}
+.hero-text-subtitle{
+    width: 155px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+
+}
+.hero-text-languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 65px;
+    transform: rotate(-90deg);
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+}
+.hero-image-img{
+    margin-top: 36px;
+    object-fit: cover;
+    height: 385px;
+}
+@media screen and (max-width: 1070px){
+    .hero{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 900px){
+    .hero{
+        width: 700px;
+    }
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hero-text-languages{
+        display: none;
+    }
+    .hero-text-subtitle{
+        margin-top: 23px;
+    }
+}
+@media screen and (max-width: 750px){
+    .hero{
+        width: 100%;
+        padding: 0px 20px;
+    } 
+}
+.about{
+    height: 506px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-text{
+    width: 485px;
+}
+.about-text-title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    color: #070707;  
+    text-align: center;
+}
+.about-text-subtitle{
+    margin-top: 17px;
+    width: 100%;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+@media screen and (max-width: 554px){
+    .about-text{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+.skills{
+    width: 940px;
+    margin: 0 auto;
+}
+.skills-text-title{
+    margin-top: 91px;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    color: #070707;
+    text-align: center; 
+}
+.skills-text-subtitle{
+    margin-top: 69px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+}
+.skills-cards-card{
+    width: 166px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
